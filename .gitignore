@@ -1,0 +1,28 @@
+# ===== Obsidian / 系统文件 =====
+# .obsidian 整目录不入库：其中约 95% 是第三方插件的压缩 main.js（约 15MB），
+# 重新克隆后用 Obsidian 自行安装插件即可，所需插件清单见 README。
+.obsidian/
+.trash/
+.DS_Store
+Thumbs.db
+
+# ===== 本地私密内容（含真实密钥，永不入库）=====
+# 该文件第 1 行是真实 API 密钥（火山方舟 ark-*），只保留在本地机器上。
+00 Inbox/字节订阅密钥.md
+
+# ===== 机器相关备份 / 缓存（非知识库内容，不入库）=====
+# path-backup/   本机 PATH 备份、Node 二进制与 tarball
+# graphflow-out/ 图谱缓存（含 sqlite 数据库）
+path-backup/
+graphflow-out/
+.graphflow-cache/
+
+# ===== 工具链目录（非知识库内容，不入库）=====
+.agents/
+.claude/
+.copilot/
+.opencode/
+copilot/
+
+# ===== 日志/临时 =====
+*.log
