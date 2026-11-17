@@ -24,5 +24,19 @@ graphflow-out/
 .opencode/
 copilot/
 
+# ===== 本机临时 / 机器相关产物（非知识库内容，不入库）=====
+# .tmp-*/            本地实验缓存（模型轮子、抓取页面、临时脚本，约 1GB）
+# c-disk-analysis/   本机 C 盘扫描结果（含机器与用户目录明细）
+# _pdf2docx/         PDF→DOCX 转换中间产物（含个人文档）
+# .browser_profile/  自动采集用的 Chrome 用户目录（含 Cookie / 登录态）
+.tmp-*/
+c-disk-analysis/
+_pdf2docx/
+.browser_profile/
+
+# ===== 暂不公开的笔记（待脱敏后再决定是否入库）=====
+# 含真实服务器公网 IP / 面板地址
+01 Notes/网络与运维/自建 VPN 实施方案（硅谷轻量 · sing-box）.md
+
 # ===== 日志/临时 =====
 *.log
